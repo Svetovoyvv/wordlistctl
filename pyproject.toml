@@ -9,6 +9,9 @@ dependencies = [
     "termcolor>=3.1.0",
 ]
 
+[tool.uv]
+package = true
+
 [tool.setuptools.packages]
 find = {where = ["src"]}
 
