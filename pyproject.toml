@@ -1,20 +1,17 @@
 [project]
 name = "wordlistctl"
-version = "0.9.3"
-description = "Fetch, install and search wordlist archives from websites."
+version = "0.1.0"
+description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.9"
-dependencies = [
-    "requests>=2.32.5",
-    "termcolor>=3.1.0",
+authors = [
+    { name = "sveto", email = "me@svetovoyvv.ru" }
 ]
-
-[tool.uv]
-package = true
-
-[build-system]
-requires = ["uv_build>=0.9.8,<0.10.0"]
-build-backend = "uv_build"
+requires-python = ">=3.10"
+dependencies = []
 
 [project.scripts]
 wordlistctl = "wordlistctl:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
