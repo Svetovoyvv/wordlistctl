@@ -9,5 +9,8 @@ dependencies = [
     "termcolor>=3.1.0",
 ]
 
+[tool.setuptools.packages]
+find = {where = ["src"]}
+
 [project.scripts]
 wordlistctl = "wordlistctl:main"
