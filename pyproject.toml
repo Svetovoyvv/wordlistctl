@@ -1,13 +1,14 @@
 [project]
 name = "wordlistctl"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.9.3"
+description = "Fetch, install and search wordlist archives from websites."
 readme = "README.md"
-authors = [
-    { name = "sveto", email = "me@svetovoyvv.ru" }
-]
+authors = []
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "requests>=2.32.5",
+    "termcolor>=3.2.0",
+]
 
 [project.scripts]
 wordlistctl = "wordlistctl:main"
