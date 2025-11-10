@@ -1,0 +1,13 @@
+[project]
+name = "wordlistctl"
+version = "0.9.3"
+description = "Fetch, install and search wordlist archives from websites."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.32.5",
+    "termcolor>=3.1.0",
+]
+
+[project.scripts]
+wordlistctl = "wordlistctl:main"
